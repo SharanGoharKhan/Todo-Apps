@@ -1,0 +1,15 @@
+<div class="container">
+
+    <input  
+    [(ngModel)]="todo" 
+    type="text" 
+    placeholder="Enter Todo" 
+    class="todo--input"/>
+
+    <button 
+    [disabled]="todo == ''" 
+    type="button" 
+    class="btn save" 
+    (click)="onSaveTodo()">Save Todo!</button>
+
+</div>

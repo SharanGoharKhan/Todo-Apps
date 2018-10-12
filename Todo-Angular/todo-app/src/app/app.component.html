@@ -1,0 +1,12 @@
+<div class="container--todo-header">
+  <h1>Todo App Angular</h1>
+</div>
+<app-todo-input (onTodoAdd)="handleTodoAdd($event)"></app-todo-input>
+<hr>
+<div class="margin-top-50">
+  <app-todo-list 
+    [todo]="todoEl" 
+    [index]="i" 
+    *ngFor="let todoEl of todos;let i = index">
+  </app-todo-list>
+</div>

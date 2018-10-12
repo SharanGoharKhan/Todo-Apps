@@ -1,0 +1,15 @@
+<div class="container">
+
+    <input  
+    [disabled]="true" 
+    type="text" 
+    placeholder="Enter Todo" 
+    class="todo--input" 
+    [(ngModel)]="todo"/>
+    
+    <button 
+    type="button" 
+    class="btn delete" 
+    (click)="onDeleteTodo()">Delete</button>
+
+</div>

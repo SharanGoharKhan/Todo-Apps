@@ -1,0 +1,32 @@
+/* Global Variables */
+:root {
+  --btn-save-color: #50af50;
+  --btn-update-color: #337ab7;
+  --btn-delete-color: #d9534f;
+
+  --primary-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+/* Elements Styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+}
+
+.btn {
+  width: 20%;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  margin-left: 20px;
+  border-radius: 4px;
+  font-weight: 700;
+  padding: 12px 20px;
+}
+
+.btn:hover {
+  box-shadow: var(--primary-shadow);
+}
+
+
